@@ -1,2 +1,22 @@
-.App {
+.propertyCard {
+  border: 1px black solid;
+  width: 26%;
+  display: flex;
+  flex-flow: column;
+  transition: box-shadow 0.3s;
+}
+
+.propertyCard:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.tableHeaderText {
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+.tableRowText {
+  text-align: left;
+  padding: 10px;
 }
